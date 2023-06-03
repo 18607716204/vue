@@ -4,8 +4,11 @@
       <Category />
       <Banner />
     </div>
-    <Pannel title="答辩" subTitle="压缩毛巾" />
-    <Pannel />
+    <Pannel title="答辩" subTitle="压缩毛巾"></Pannel>
+
+    <Pannel></Pannel>
+
+    <New />
     <New />
     <Hot />
     <Product />

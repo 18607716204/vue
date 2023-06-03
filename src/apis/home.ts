@@ -7,4 +7,11 @@ export const getBanner =()=>{
 
 }
 
+export const  getNew=()=>{
+  return HttpInstance({url:'/home/new',method:'GET'})
+
+}
+
+
+
 

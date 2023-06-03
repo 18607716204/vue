@@ -1,6 +1,6 @@
 <template>
   <div class="hbanner">
-    <el-carousel height="500px" :interval="5000" arrow="arrow ">
+    <el-carousel height="500px" :interval="5000" arrow="hover">
       <el-carousel-item v-for="item in bannerlist" :key="item">
         <img :src="item.imgUrl" alt="" />
       </el-carousel-item>
