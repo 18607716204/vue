@@ -13,3 +13,11 @@ app.use(createPinia())
 app.use(router)
 
 app.mount('#app')
+
+app.directive("img-lazy",{
+mounted(el,binding){
+  console.log(el,binding.value);
+  
+}
+
+})
