@@ -1,5 +1,5 @@
 <template>
-  <div class="fixedhead" :class="{ show: y > 10 }">
+  <div class="fixedhead" :class="{ show: y > 100 }">
     <div class="header">
       <div class="logo">{{ y }}{{ 'px' }}</div>
 

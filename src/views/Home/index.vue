@@ -28,7 +28,7 @@ import Product from './component/HomeProduct.vue'
 <style lang="scss" scoped>
 .home {
   width: 100%;
-  height: 800px;
+  height: 100%px;
 }
 
 .container {

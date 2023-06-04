@@ -13,5 +13,11 @@ export const  getNew=()=>{
 }
 
 
+export const  getGoodsAPI=()=>{
+  return HttpInstance({url:'/home/goods',method:'GET'})
+
+}
+
+
 
 
